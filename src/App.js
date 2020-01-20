@@ -12,7 +12,7 @@ function App() {
   console.log(boolean)
   return (
     <div className="App">
-    <button onClick={clickMe}></button>
+    <button onClick={clickMe}>Click Me</button>
     <AllStudents bool={boolean}/*className= { boolean ? "display" : null}*//>
     </div>
   );
